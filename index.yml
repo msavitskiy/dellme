@@ -1,3 +1,4 @@
+group: my-test-group
 templates:
   - name: test
     location: test

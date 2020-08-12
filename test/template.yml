@@ -1,0 +1,3 @@
+parameters:
+  - name: test
+    type: String

@@ -2,3 +2,5 @@ group: my-test-group
 templates:
   - name: test
     location: test
+  - name: test2
+    location: test2

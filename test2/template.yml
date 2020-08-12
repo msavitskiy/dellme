@@ -1,0 +1,6 @@
+parameters:
+  - name: test2
+    type: String
+outputs:
+  - from: Test2.java
+    to: com/ms/{{test}}/Test2.java

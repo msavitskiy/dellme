@@ -1,6 +1,7 @@
 parameters:
   - name: test
     type: String
+    value: default
 outputs:
   - from: Test.java
     to: com/ms/{{test}}/Test.java

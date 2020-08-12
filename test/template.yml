@@ -3,4 +3,4 @@ parameters:
     type: String
 outputs:
   - from: Test.java
-    to: com.ms.{{test}}.Test.java
+    to: com/ms/{{test}}/Test.java

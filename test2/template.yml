@@ -1,6 +1,9 @@
 parameters:
   - name: test2
     type: String
+  - name: pk
+    type: String
+    value: com.ms
 outputs:
   - from: Test2.java
-    to: com/ms/{{test}}/Test2.java
+    to: com/ms/{{#dot2fs}}{{test}}{{/dot2fs}}/Test2.java

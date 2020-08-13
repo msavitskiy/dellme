@@ -3,7 +3,7 @@ parameters:
     type: String
   - name: pk
     type: String
-    value: com.ms
+    value: com.ms.test
 outputs:
   - from: Test2.java
-    to: com/ms/{{#dot2fs}}{{test}}{{/dot2fs}}/Test2.java
+    to: com/ms/{{#dot2fs}}{{pk}}{{/dot2fs}}/Test2.java

@@ -4,3 +4,5 @@ templates:
     location: test
   - name: test2
     location: test2
+  - name: freeSpins
+    location: test2
